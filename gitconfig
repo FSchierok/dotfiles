@@ -1,0 +1,11 @@
+[user]
+	email = fabian.schierok@udo.edu
+	name = Fabian Schierok
+[rebase]
+	stat = true
+[merge]
+	conflictstyle = diff3
+[mergetool "nvim"]
+  cmd = nvim -f -c \"Gdiff\" \"$MERGED\"
+[core]
+	editor = nvim
